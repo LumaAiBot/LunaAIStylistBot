@@ -47,7 +47,7 @@ GOOGLE_PROJECT = os.getenv("GOOGLE_PROJECT", "ai-stylist")
 GOOGLE_LOCATION = os.getenv("GOOGLE_LOCATION", "europe-west1")
 
 # Конфигурация клиента
-genai.configure(
+client = genai.Client(
     api_key=GEMINI_API_KEY,
     project=GOOGLE_PROJECT,
     location=GOOGLE_LOCATION
