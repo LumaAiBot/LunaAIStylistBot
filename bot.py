@@ -41,6 +41,7 @@ TELEGRAM_TOKEN = "8461730209:AAGC4mLXB9cQK1wlI8GnzikzO5MVKRLo0Q"
 GEMINI_API_KEY = "AIzaSyX6i871ZKwIz0IrdFpidpd0fEwjN0pK4r"
 
 # Новые переменные (можно просто добавить здесь)
+# Новые переменные (можно просто добавить здесь)
 import os
 GOOGLE_PROJECT = os.getenv("GOOGLE_PROJECT", "ai-stylist")
 GOOGLE_LOCATION = os.getenv("GOOGLE_LOCATION", "europe-west1")
