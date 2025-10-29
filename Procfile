@@ -1,1 +1,1 @@
-worker: python LumaAiBot/bot.py
+worker: python bot.py
